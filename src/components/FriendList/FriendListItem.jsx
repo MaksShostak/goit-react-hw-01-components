@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
-import {GrAccessibility } from "react-icons/gr";
+import { GrAccessibility } from "react-icons/gr";
+import{ListItem,FriendName,FriendAvatar,FriendStatus  }from "./FriendListItem.styled"
 export const FriendListItem = (({ isOnline, avatar, name }) =>
-(<li className="item">
-        <span className="status">{ isOnline}</span>
-        <img className="avatar" src={ avatar} alt="User avatar" width="48" />
-    <p className="name"> <GrAccessibility /> {name}</p>
-</li>))
+(<ListItem >
+        <FriendStatus  status={isOnline}>{ isOnline}</FriendStatus>
+        <FriendAvatar  src={ avatar} alt="User avatar" width="48" height="48" />
+    <FriendName> <GrAccessibility /> {name}</FriendName>
+</ListItem>))
        
 
 FriendListItem.propTypes = { 

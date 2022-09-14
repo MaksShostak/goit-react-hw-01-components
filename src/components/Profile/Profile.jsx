@@ -8,7 +8,8 @@ export const Profile = ({ username = "vango", tag = "luke", location = "Kiev", a
     <UserImg 
       src={avatar}
       alt="User avatar"
-      className="avatar"
+      
+                
     />
     <UserName>{username}</UserName>
     <UserDescribe>@{tag}</UserDescribe>

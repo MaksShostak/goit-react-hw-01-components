@@ -11,8 +11,8 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
-        display: 'block',
+        // height: '100vh',
+        display: 'flex',
         // flexWrap:"wrap",
         flexDirection:"column",
         justifyContent: 'center',
