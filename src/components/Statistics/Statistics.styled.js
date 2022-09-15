@@ -23,6 +23,7 @@ export const Title = styled.h2`
   margin-top: 0;
   margin-bottom: 0;
 `;
+
 export const StatList = styled.ul`
   padding: 0;
   margin: 0;

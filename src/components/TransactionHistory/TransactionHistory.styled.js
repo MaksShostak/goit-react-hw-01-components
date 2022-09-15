@@ -12,7 +12,7 @@ export const Table = styled.table`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  border-radius: 10px;
+  //   border-radius: 10px;
 `;
 export const TableTh = styled.th`
   padding: 30px;

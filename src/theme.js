@@ -8,6 +8,8 @@ export const theme = {
     secondary: '#05a',
     accent: '#609',
     muted: '#f6f6f6',
+    mycolor: 'rgb(193, 186, 186)',
+    bordercolor: 'rgb(61, 58, 59)',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {
