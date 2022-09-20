@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { checkStatus } from './checkStatus';
+
 export const ListItem = styled.li`
   display: flex;
   align-items: center;
@@ -23,11 +24,11 @@ export const FriendName = styled.p`
   margin-bottom: 0;
   text-align: center;
 
-  svg {
+  /* svg {
     color: azure;
     fill: green;
     stroke: red;
-  }
+  } */
 `;
 export const FriendAvatar = styled.img`
   display: block;

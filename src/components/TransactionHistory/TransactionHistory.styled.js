@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 export const Table = styled.table`
   border: 2px solid rgb(61, 58, 59);
   //   border-radius: 6px;
